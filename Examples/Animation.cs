@@ -23,7 +23,7 @@ namespace Animation
             await selfHandle;
         }
 
-        public async Task RunCommandAnimation(GameAction action)
+        public async Task RunAnimation(GameAction action)
         {
             Task animation = action switch
             {
